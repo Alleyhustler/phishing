@@ -63,7 +63,7 @@ section p {
 
 .banner img {
     width: 100%; /* Full width of the section */
-    max-height: 500px; /* Adjust the height as needed */
+    max-height: 700px; /* Adjust the height as needed */
     object-fit: cover; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Optional: Shadow effect */
