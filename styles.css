@@ -64,7 +64,7 @@ section p {
 
 .banner img {
     width: 100%; /* Keep this to make the image responsive */
-    max-height: 1000px; /* Adjust this value as needed */
+    max-height: 800px; /* Adjust this value as needed */
     height: auto; /* Make sure height is determined automatically based on the image aspect ratio */
     object-fit: cover; /* This maintains the aspect ratio while covering the container */
 }
