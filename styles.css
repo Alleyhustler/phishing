@@ -59,16 +59,15 @@ section p {
 .banner {
     text-align: center;
     margin-bottom: 20px;
+    height: auto; /* Ensure the height is not limited */
 }
 
 .banner img {
-    width: 100%; /* Full width of the section */
-    max-height: 1300px; /* Adjust the height as needed */
-    object-fit: cover; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Optional: Shadow effect */
+    width: 100%; /* Keep this to make the image responsive */
+    max-height: 1300px; /* Adjust this value as needed */
+    height: auto; /* Make sure height is determined automatically based on the image aspect ratio */
+    object-fit: cover; /* This maintains the aspect ratio while covering the container */
 }
-
 #phishnomics {
     padding: 40px;
     background-color: #1a1a1a; /* Dark background for the section */
